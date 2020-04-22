@@ -314,12 +314,16 @@ class _DatePickerState extends State<_DataPickerComponent> {
         return 'Done';
         break;
 
+      case 'id':
+        return 'Selesai';
+        break;
+
       case 'zh':
         return '确定';
         break;
 
       default:
-        return 'Selesai';
+        return '';
         break;
     }
   }
@@ -336,12 +340,16 @@ class _DatePickerState extends State<_DataPickerComponent> {
         return 'Cancel';
         break;
 
+      case 'id':
+        return 'Batal';
+        break;
+
       case 'zh':
         return '取消';
         break;
 
       default:
-        return 'Batal';
+        return '';
         break;
     }
   }
