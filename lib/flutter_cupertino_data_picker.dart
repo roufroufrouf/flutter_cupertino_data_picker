@@ -319,7 +319,7 @@ class _DatePickerState extends State<_DataPickerComponent> {
         break;
 
       default:
-        return '';
+        return 'Selesai';
         break;
     }
   }
@@ -341,7 +341,7 @@ class _DatePickerState extends State<_DataPickerComponent> {
         break;
 
       default:
-        return '';
+        return 'Batal';
         break;
     }
   }
